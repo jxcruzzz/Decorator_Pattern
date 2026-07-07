@@ -50,7 +50,7 @@ namespace decoratorPattern {
         }
     }
 
-    // Implemetacion del nuevo Decorator: WhatsApp
+    // Implemetacion de los nuevos Decorator: WhatsApp y Discord
     class WhatsAppDecorator extends NotificationDecorator {
 
         private sendWhatsApp(message: string): void {
